@@ -21,27 +21,27 @@ public class GradeMessage {
             grade = scanner.next();
         }
         scanner.close();
-        String msg;
-        switch (grade){
-            case "A":
-                msg = "Excellent job!";
-                break;
-            case "B":
-                msg = "Great job!";
-                break;
-            case "C":
-                msg = "Good job!";
-                break;
-            case "D":
-                msg = "You need to work a bit harder!";
-                break;
-            case "F":
-                msg = "Worthless Trash, LOL";
-                break;
-            default:
-                msg = "Error, Invalid Grade";
-        }
-        System.out.println(msg);
+        // String msg;
+        // switch (grade){
+        //     case "A":
+        //         msg = "Excellent job!";
+        //         break;
+        //     case "B":
+        //         msg = "Great job!";
+        //         break;
+        //     case "C":
+        //         msg = "Good job!";
+        //         break;
+        //     case "D":
+        //         msg = "You need to work a bit harder!";
+        //         break;
+        //     case "F":
+        //         msg = "Worthless Trash, LOL";
+        //         break;
+        //     default:
+        //         msg = "Error, Invalid Grade";
+        // }
+        // System.out.println(msg);
 
         String message = switch (grade.toUpperCase()) {
             case "A" -> "Excellent job!";
